@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Journal — Your Name</title>
+  <meta name="description" content="Thoughts, stories, and writing by Your Name."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav>
+    <a href="index.html" class="nav-logo">Your<span>Name</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="photography.html">Photography</a>
+    <a href="blog.html">Journal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero container">
+      <p class="label">Words & Thoughts</p>
+      <h1>Journal</h1>
+    </section>
+
+    <!-- ========== BLOG GRID ========== -->
+    <section class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <div>
+            <p class="label">Latest Posts</p>
+            <h2>What's on my mind</h2>
+          </div>
+        </div>
+
+        <!--
+          HOW TO ADD A NEW POST:
+          1. Duplicate one of the .blog-card divs below.
+          2. Update the tag, date, title, excerpt, and link.
+          3. Ideally, create a new HTML file for each full post (e.g. posts/my-post.html)
+             and link the card to it. For now, the cards just link to # as a placeholder.
+        -->
+
+        <div class="blog-grid">
+
+          <div class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">Photography</span>
+              <span class="blog-date">March 2025</span>
+            </div>
+            <h3>Your First Post Title Goes Here</h3>
+            <p>
+              Write a short excerpt or introduction that gives readers a taste of what this post is about. Two or three sentences is enough. Make it interesting enough that they want to click through.
+            </p>
+            <span class="blog-read-more">Read More</span>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">Life</span>
+              <span class="blog-date">February 2025</span>
+            </div>
+            <h3>Another Post Title — What You've Been Thinking About</h3>
+            <p>
+              A short excerpt for this post. Replace all of these with your real writing. This is just a placeholder to show you what the layout looks like with content in it.
+            </p>
+            <span class="blog-read-more">Read More</span>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">Travel</span>
+              <span class="blog-date">January 2025</span>
+            </div>
+            <h3>A Trip Worth Writing About</h3>
+            <p>
+              Maybe a travel story, a review of a location you shot in, or a reflection on a journey. This is your space — write whatever feels right.
+            </p>
+            <span class="blog-read-more">Read More</span>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">Gear</span>
+              <span class="blog-date">December 2024</span>
+            </div>
+            <h3>My Camera Setup & Why I Use It</h3>
+            <p>
+              A post about your gear, your editing workflow, or why you made a certain equipment choice. Gear posts tend to be popular and easy to write.
+            </p>
+            <span class="blog-read-more">Read More</span>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top: 3rem;">
+          <p style="font-size:0.85rem; color:var(--text-muted);">
+            More posts coming soon. Have a topic suggestion? <a href="contact.html" style="color:var(--accent);">Let me know.</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-brand">
+      Your<span>Name</span>
+      <small>© <span id="year"></span>. All rights reserved.</small>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="#" title="Instagram">IG</a>
+      <a href="#" title="Twitter / X">X</a>
+      <a href="#" title="LinkedIn">LI</a>
+      <a href="#" title="GitHub">GH</a>
+    </div>
+    <div class="footer-bottom">
+      <p>Built with HTML, CSS & JS. Hosted on GitHub Pages.</p>
+      <p><a href="contact.html" style="color:var(--accent);">Say hello →</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

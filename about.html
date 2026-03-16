@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Your Name</title>
+  <meta name="description" content="Learn more about Your Name — who I am, what I do, and what drives me."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav>
+    <a href="index.html" class="nav-logo">Your<span>Name</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="photography.html">Photography</a>
+    <a href="blog.html">Journal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero container">
+      <p class="label">Get to Know Me</p>
+      <h1>About Me</h1>
+    </section>
+
+    <!-- ========== ABOUT GRID ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-block">
+            <!--
+              Replace this block with your profile photo.
+              Example:
+              <img src="images/portrait.jpg" alt="Photo of me" style="width:100%;height:100%;object-fit:cover;">
+            -->
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <p>Replace with your portrait photo</p>
+          </div>
+          <div class="about-text">
+            <p class="label">My Story</p>
+            <h2>Who I Am</h2>
+            <p>
+              Write a genuine, personal introduction here. Who are you? Where did you grow up? What makes you, you? This is the most important paragraph — make it feel real, not like a résumé.
+            </p>
+            <p>
+              A second paragraph about your passions, interests, or how you got into photography (or whatever your main creative pursuit is). Talk about what drives you to create.
+            </p>
+            <p>
+              A third paragraph if you need it — maybe about where you are now, what you're working on, or what you hope to achieve. Or cut this and keep it concise.
+            </p>
+            <a href="contact.html" class="btn btn-filled">Let's Talk</a>
+
+            <!-- ========== SKILLS ========== -->
+            <ul class="skills-list">
+              <li class="skill-item">Photography</li>
+              <li class="skill-item">Photo Editing</li>
+              <li class="skill-item">Lightroom</li>
+              <li class="skill-item">Photoshop</li>
+              <li class="skill-item">Your Skill Here</li>
+              <li class="skill-item">Your Skill Here</li>
+              <li class="skill-item">Your Skill Here</li>
+              <li class="skill-item">Your Skill Here</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TIMELINE ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="label">My Journey</p>
+            <h2>Timeline</h2>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              <h4>Something Recent You Did</h4>
+              <p>A brief description of this milestone — a project, a trip, a job, an achievement.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-content">
+              <h4>Another Milestone</h4>
+              <p>Description. Keep each one to 1–2 sentences.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2020</div>
+            <div class="timeline-content">
+              <h4>Started Photography Seriously</h4>
+              <p>Or whatever the real story was. Edit this to reflect your actual journey.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2018</div>
+            <div class="timeline-content">
+              <h4>Another Entry</h4>
+              <p>Keep adding or removing items until the timeline feels right.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">Earlier</div>
+            <div class="timeline-content">
+              <h4>Where It All Began</h4>
+              <p>The origin story. What started it all?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GEAR / TOOLS (optional) ========== -->
+    <section class="section" style="background: var(--bg-alt);">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="label">What I Use</p>
+            <h2>Gear & Tools</h2>
+          </div>
+        </div>
+        <div class="featured-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📷</div>
+            <h3>Camera Body</h3>
+            <p>e.g. Sony A7IV, Canon R6, Fujifilm X-T5. Replace this with your actual camera.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔭</div>
+            <h3>Favourite Lens</h3>
+            <p>e.g. 35mm f/1.8, 50mm f/1.4. What lens do you reach for most?</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💻</div>
+            <h3>Editing Software</h3>
+            <p>e.g. Lightroom Classic + Photoshop. Or Capture One, Darktable, etc.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="section" style="text-align:center;">
+      <div class="container">
+        <p class="label" style="display:flex; justify-content:center; margin-bottom:1rem;">Work With Me</p>
+        <h2 style="margin-bottom:1rem;">Interested in collaborating?</h2>
+        <p style="color:var(--text-muted); max-width:440px; margin: 0 auto 2rem;">I'm always open to new projects and creative partnerships. Reach out and let's make something together.</p>
+        <a href="contact.html" class="btn btn-accent">Contact Me</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-brand">
+      Your<span>Name</span>
+      <small>© <span id="year"></span>. All rights reserved.</small>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="#" title="Instagram">IG</a>
+      <a href="#" title="Twitter / X">X</a>
+      <a href="#" title="LinkedIn">LI</a>
+      <a href="#" title="GitHub">GH</a>
+    </div>
+    <div class="footer-bottom">
+      <p>Built with HTML, CSS & JS. Hosted on GitHub Pages.</p>
+      <p><a href="contact.html" style="color:var(--accent);">Say hello →</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
